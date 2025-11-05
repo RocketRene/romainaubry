@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: Kontaktieren Sie mich
-    link: /contact
+    link: /de/contact
 features:
   - title: Professioneller Französischunterricht
     image: /images/uploads/anthony-choren-lyzap0eubdy-unsplash.jpg
@@ -24,7 +24,7 @@ features:
       - "Unterricht für alle Niveaus: A1, A2, B1, B2, C1, C2"
       - "Flexible Terminplanung: Montag-Samstag, 9:00-21:00 Uhr"
     button:
-      enable: true
+      enable: false
       label: Mehr erfahren
       link: /about
   - title: Warum Französisch mit mir lernen?
@@ -40,7 +40,7 @@ features:
       - Französischer Muttersprachler, fließend Englisch
       - Praktischer Kommunikationsfokus mit Humor
     button:
-      enable: true
+      enable: false
       label: Loslegen
       link: /contact
   - title: Flexible Lernoptionen
@@ -56,7 +56,7 @@ features:
       - Business-Französisch für Fachleute
       - Akademisches Französisch für Universitätsstudenten
     button:
-      enable: true
+      enable: false
       label: Kontaktieren Sie mich
       link: /contact
 ---

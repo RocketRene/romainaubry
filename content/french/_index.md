@@ -9,7 +9,7 @@ banner:
   button:
     enable: true
     label: Me Contacter
-    link: /contact
+    link: /fr/contact
 features:
   - title: Enseignement Professionnel du Français
     image: /images/service-1.png
@@ -25,7 +25,7 @@ features:
       - "Enseignement de tous les niveaux : A1, A2, B1, B2, C1, C2"
       - "Horaires flexibles : Lundi-Samedi, 9h00-21h00"
     button:
-      enable: true
+      enable: false
       label: En savoir plus
       link: /about
   - title: Pourquoi apprendre le français avec moi ?
@@ -41,7 +41,7 @@ features:
       - Locuteur natif français, anglais courant
       - Accent sur la communication pratique avec humour
     button:
-      enable: true
+      enable: false
       label: Commencer
       link: /contact
   - title: Options d'Apprentissage Flexibles
@@ -57,7 +57,7 @@ features:
       - Français des affaires pour les professionnels
       - Français académique pour les étudiants universitaires
     button:
-      enable: true
+      enable: false
       label: Me Contacter
       link: /contact
 ---

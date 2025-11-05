@@ -9,7 +9,7 @@ banner:
   button:
     enable: true
     label: Contact Me
-    link: /contact
+    link: /en/contact
 features:
   - title: Professional French Language Teaching
     image: /images/service-1.png
@@ -25,7 +25,7 @@ features:
       - "Teaching all levels: A1, A2, B1, B2, C1, C2"
       - "Flexible scheduling: Monday-Saturday, 9:00-21:00"
     button:
-      enable: true
+      enable: false
       label: Learn More
       link: /about
   - title: Why Learn French with Me?
@@ -41,7 +41,7 @@ features:
       - Native French speaker, fluent English
       - Practical communication focus with humor
     button:
-      enable: true
+      enable: false
       label: Get Started
       link: /contact
   - title: Flexible Learning Options
@@ -57,7 +57,7 @@ features:
       - Business French for professionals
       - Academic French for university students
     button:
-      enable: true
+      enable: false
       label: Contact Me
       link: /contact
 ---
