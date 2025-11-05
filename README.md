@@ -37,31 +37,31 @@ To run this project locally, you need:
 ## Getting Started
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/RocketRene/romainaubry.git
    cd romainaubry
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    hugo server
-   \`\`\`
+   ```
    
-   The site will be available at \`http://localhost:1313\`
+   The site will be available at `http://localhost:1313`
 
 4. **Build for production**
-   \`\`\`bash
+   ```bash
    hugo --gc --minify
-   \`\`\`
+   ```
 
 ## Project Structure
 
-\`\`\`
+```
 .
 ├── assets/           # Images, CSS, and other assets
 ├── content/          # Content files organized by language
@@ -74,7 +74,7 @@ To run this project locally, you need:
 ├── data/             # Data files (theme, social links, etc.)
 └── static/
     └── admin/        # Decap CMS configuration
-\`\`\`
+```
 
 ## Content Management with Decap CMS
 
@@ -87,19 +87,19 @@ This site uses [Decap CMS](https://decapcms.org/) for easy content management wi
    - Click "New application"
    - Set the following:
      - **Name**: Romain Aubry Website CMS
-     - **Redirect URI**: \`https://romainaubry.pages.dev/admin/\` (replace with your actual domain)
+     - **Redirect URI**: `https://romainaubry.pages.dev/admin/` (replace with your actual domain)
      - **Confidential**: Uncheck this (required for PKCE)
-     - **Scopes**: Select \`api\` and \`write_repository\`
+     - **Scopes**: Select `api` and `write_repository`
    - Click "Save application"
    - Copy the **Application ID** (you won't need the Secret for PKCE)
 
 2. **Configure Decap CMS**:
-   - Open \`static/admin/config.yml\`
-   - Replace \`YOUR_GITLAB_APP_ID\` with your GitLab Application ID
-   - Ensure the \`repo\` matches your GitLab repository (format: \`username/repository\`)
+   - Open `static/admin/config.yml`
+   - Replace `YOUR_GITLAB_APP_ID` with your GitLab Application ID
+   - Ensure the `repo` matches your GitLab repository (format: `username/repository`)
 
 3. **Access the CMS**:
-   - Navigate to \`https://yourdomain.com/admin/\` (or \`http://localhost:1313/admin/\` for local testing)
+   - Navigate to `https://yourdomain.com/admin/` (or `http://localhost:1313/admin/` for local testing)
    - Log in with your GitLab credentials
    - Start managing your content!
 
@@ -121,23 +121,23 @@ This site uses [Decap CMS](https://decapcms.org/) for easy content management wi
 
 ## Customization
 
-- **Site Configuration**: Edit \`hugo.toml\` for basic site settings
-- **Parameters**: Modify \`config/_default/params.toml\` for site-wide parameters
-- **Menus**: Update \`config/_default/menus.[lang].toml\` for navigation
-- **Content**: Add/edit content files in \`content/[language]/\` or use Decap CMS
-- **Translations**: Update \`i18n/[lang].yaml\` for UI translations
+- **Site Configuration**: Edit `hugo.toml` for basic site settings
+- **Parameters**: Modify `config/_default/params.toml` for site-wide parameters
+- **Menus**: Update `config/_default/menus.[lang].toml` for navigation
+- **Content**: Add/edit content files in `content/[language]/` or use Decap CMS
+- **Translations**: Update `i18n/[lang].yaml` for UI translations
 
 ## Content Management
 
 ### Adding a Blog Post
 
 #### Via Decap CMS (Recommended)
-Navigate to \`/admin/\` and use the Blog section to create posts in any language.
+Navigate to `/admin/` and use the Blog section to create posts in any language.
 
 #### Via Command Line
 Create a new blog post in the desired language directory:
 
-\`\`\`bash
+```bash
 # For German
 hugo new content/german/blog/my-post.md
 
@@ -146,7 +146,7 @@ hugo new content/french/blog/my-post.md
 
 # For English
 hugo new content/english/blog/my-post.md
-\`\`\`
+```
 
 ## Deployment
 
@@ -157,7 +157,7 @@ This site can be deployed to:
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 - Any static hosting service
 
-**Note**: When deploying, ensure the Redirect URI in your GitLab OAuth application matches your production domain (e.g., \`https://yourdomain.com/admin/\`).
+**Note**: When deploying, ensure the Redirect URI in your GitLab OAuth application matches your production domain (e.g., `https://yourdomain.com/admin/`).
 
 ## License
 

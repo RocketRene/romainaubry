@@ -2,7 +2,7 @@ backend:
   name: gitlab
   repo: RocketRene/romainaubry
   auth_type: pkce # Enable PKCE authentication
-  app_id: YOUR_GITLAB_APP_ID # Replace with your GitLab Application ID
+  app_id: YOUR_GITLAB_APP_ID # IMPORTANT: Replace this placeholder with your actual GitLab Application ID before deploying
   
 # When using PKCE, the auth endpoint will be:
 # https://gitlab.com/oauth/authorize
