@@ -1,8 +1,10 @@
 ---
-title: "Über Romain Aubry"
-meta_title: "Über Romain Aubry - Französischlehrer in Berlin"
-description: "Erfahren Sie mehr über Romain Aubry, einen erfahrenen Französischlehrer in Berlin, spezialisiert auf Französisch als Fremdsprache (FLE)."
-image: "/images/avatar.png"
+title: Über Romain Aubry
+meta_title: Über Romain Aubry - Französischlehrer in Berlin
+description: Erfahren Sie mehr über Romain Aubry, einen erfahrenen
+  Französischlehrer in Berlin, spezialisiert auf Französisch als Fremdsprache
+  (FLE).
+image: /images/uploads/cxwkcahvaaaeuf4_format-png-name-medium.png
 draft: false
 ---
 
