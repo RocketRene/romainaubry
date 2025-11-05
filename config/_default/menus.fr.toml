@@ -50,5 +50,5 @@ weight = 4
 
 [[footer]]
 name = "Admin"
-url = "https://romainaubry.pages.dev/admin/"
+url = "/admin/"
 weight = 5
