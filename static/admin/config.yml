@@ -197,6 +197,38 @@ collections:
                   - {label: "Label", name: "label", widget: "string"}
                   - {label: "Link", name: "link", widget: "string"}
 
+  # Students Pages
+  - name: "students"
+    label: "Students Pages"
+    files:
+      - label: "Students (German)"
+        name: "students-de"
+        file: "content/german/students/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Students (French)"
+        name: "students-fr"
+        file: "content/french/students/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Students (English)"
+        name: "students-en"
+        file: "content/english/students/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   # Blog Posts
   - name: "blog-de"
     label: "Blog (Deutsch)"
@@ -210,7 +242,6 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -227,7 +258,6 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -244,7 +274,6 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
