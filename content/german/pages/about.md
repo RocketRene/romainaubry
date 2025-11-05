@@ -8,6 +8,8 @@ image: /images/uploads/profilepicture.jpg
 draft: false
 ---
 
+{{< toc >}}
+
 ## Beruflicher Überblick
 
 Ich bin Romain Aubry, ein erfahrener Französischlehrer mit Sitz in Berlin, spezialisiert auf das Unterrichten von Französisch als Fremdsprache (FLE) für Lernende aller Niveaus (A1-C2). Mit einem einzigartigen Hintergrund, der Bildung, Geisteswissenschaften und Wirtschaft kombiniert, bringe ich einen vielseitigen Ansatz zum Sprachunterricht mit, der sowohl professionell anspruchsvoll als auch persönlich anpassbar ist.

@@ -8,6 +8,8 @@ image: /images/uploads/profilepicture.jpg
 draft: false
 ---
 
+{{< toc >}}
+
 ## Présentation Professionnelle
 
 Je suis Romain Aubry, enseignant expérimenté de langue française basé à Berlin, en Allemagne, spécialisé dans l'enseignement du français langue étrangère (FLE) pour tous les niveaux (A1-C2). Avec une formation unique combinant éducation, sciences humaines et monde des affaires, j'apporte une approche multidimensionnelle de l'enseignement des langues, à la fois rigoureuse professionnellement et personnellement adaptable.

@@ -21,7 +21,7 @@ collections:
     files:
       - label: "About (English)"
         name: "about-en"
-        file: "content/english/about/_index.md"
+        file: "content/english/pages/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
@@ -31,7 +31,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "About (French)"
         name: "about-fr"
-        file: "content/french/about/_index.md"
+        file: "content/french/pages/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
@@ -41,7 +41,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "About (German)"
         name: "about-de"
-        file: "content/german/about/_index.md"
+        file: "content/german/pages/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}

@@ -6,6 +6,8 @@ image: "/images/avatar.png"
 draft: false
 ---
 
+{{< toc >}}
+
 ## Professional Overview
 
 I'm Romain Aubry, an experienced French language educator based in Berlin, specializing in teaching French as a foreign language (FLE) to learners of all levels (A1-C2). With a unique background combining education, humanities, and business, I bring a multifaceted approach to language instruction that is both professionally rigorous and personally adaptable.
