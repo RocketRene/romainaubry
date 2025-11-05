@@ -1,8 +1,10 @@
 ---
-title: "À propos de Romain Aubry"
-meta_title: "À propos de Romain Aubry - Professeur de Français à Berlin"
-description: "Découvrez Romain Aubry, enseignant expérimenté de langue française basé à Berlin, spécialisé dans l'enseignement du français langue étrangère (FLE)."
-image: "/images/avatar.png"
+title: À propos de Romain Aubry
+meta_title: À propos de Romain Aubry - Professeur de Français à Berlin
+description: Découvrez Romain Aubry, enseignant expérimenté de langue française
+  basé à Berlin, spécialisé dans l'enseignement du français langue étrangère
+  (FLE).
+image: /images/uploads/profilepicture.jpg
 draft: false
 ---
 
