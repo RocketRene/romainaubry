@@ -13,12 +13,12 @@ weight = 2
 
 [[main]]
 name = "Étudiants"
-url = "/students"
+url = "/de/students"
 weight = 3
 
 [[main]]
 name = "Blog"
-url = "/blog"
+url = "/de/blog"
 weight = 4
 
 [[main]]
@@ -35,12 +35,12 @@ weight = 1
 
 [[footer]]
 name = "Étudiants"
-url = "/students"
+url = "/de/students"
 weight = 2
 
 [[footer]]
 name = "Blog"
-url = "/blog"
+url = "/de/blog"
 weight = 3
 
 [[footer]]
@@ -48,8 +48,7 @@ name = "Contact"
 url = "/contact"
 weight = 4
 
-
 [[footer]]
 name = "Admin"
 url = "https://romainaubry.pages.dev/admin/"
-weight = 3
+weight = 5
