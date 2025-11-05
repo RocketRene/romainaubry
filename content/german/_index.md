@@ -11,7 +11,7 @@ banner:
     link: /contact
 features:
   - title: Professioneller Französischunterricht
-    image: /images/service-1.png
+    image: /images/uploads/anthony-choren-lyzap0eubdy-unsplash.jpg
     content: "Als erfahrener Französischlehrer unterrichte ich derzeit an drei der
       renommiertesten Universitäten Berlins: TU Berlin, FU Berlin und HU Berlin.
       Mit über 6 Jahren Erfahrung im FLE-Unterricht biete ich personalisierten
