@@ -49,11 +49,6 @@ url = "/contact"
 weight = 4
 
 [[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 5
-
-[[footer]]
 name = "Admin"
 url = "https://romainaubry.pages.dev/admin/"
 weight = 3
