@@ -1,0 +1,36 @@
+en:
+  title: "Students"
+  meta_title: "Students Testimonials"
+  description: "Read what my students have to say about their French learning experience."
+  body: |
+    ## Student Testimonials
+
+    Here you will find testimonials from my students.
+
+    *   "Romain is a fantastic teacher!" - Student A
+    *   "I learned so much in his classes." - Student B
+    *   "Highly recommended for French learners." - Student C
+fr:
+  title: "Étudiants"
+  meta_title: "Témoignages d'étudiants"
+  description: "Découvrez ce que mes étudiants disent de leur expérience d'apprentissage du français."
+  body: |
+    ## Témoignages d'étudiants
+
+    Vous trouverez ici les témoignages de mes étudiants.
+
+    *   "Romain est un professeur fantastique !" - Étudiant A
+    *   "J'ai tellement appris dans ses cours." - Étudiant B
+    *   "Fortement recommandé pour les apprenants de français." - Étudiant C
+de:
+  title: "Studenten"
+  meta_title: "Studentenstimmen"
+  description: "Lesen Sie, was meine Studenten über ihre Französisch-Lernerfahrung sagen."
+  body: |
+    ## Studentenstimmen
+
+    Hier finden Sie Erfahrungsberichte meiner Studenten.
+
+    *   "Romain ist ein fantastischer Lehrer!" - Student A
+    *   "Ich habe in seinen Kursen so viel gelernt." - Student B
+    *   "Sehr empfehlenswert für Französischlernende." - Student C
