@@ -2,7 +2,7 @@
 # The base URL of your site (required). This will be prepended to all relative URLs.
 baseURL = "https://romainaubry.pages.dev"
 # Title of your website (required).
-title = "Romain Aubry - French Language Teacher"
+title = "Romain Aubry - Französischlehrer in Berlin"
 # Your theme name
 # theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
@@ -17,6 +17,25 @@ hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/K
 defaultContentLanguage = 'de'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = true
+
+########################### Social & SEO ###########################
+[params.social]
+title = "Romain Aubry - Französischlehrer in Berlin"
+description = "Französischlehrer in Berlin | Erfahrener FLE-Dozent an TU, FU & HU Berlin | Alle Niveaus A1-C2 | DELF/DALF Prüfer | Individuelle & flexible Online-Kurse"
+images = ["/images/uploads/profilepicture.jpg"]
+locale = "de_DE"
+
+[params.opengraph]
+title = "Romain Aubry - Französischlehrer in Berlin"
+description = "Französischlehrer in Berlin | FLE-Dozent an TU, FU & HU Berlin | Alle Niveaus A1-C2 | DELF/DALF Prüfer | Individuelle Online & Präsenz-Kurse"
+image = "/images/uploads/profilepicture.jpg"
+type = "website"
+
+[params.twitter]
+card = "summary_large_image"
+title = "Romain Aubry - Französischlehrer in Berlin"
+description = "Französischlehrer in Berlin | FLE-Dozent an TU, FU & HU Berlin | Alle Niveaus A1-C2 | DELF/DALF Prüfer"
+image = "/images/uploads/profilepicture.jpg"
 
 ########################### Services #############################
 

@@ -62,11 +62,11 @@ content = ""
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["French", "Language", "Teacher", "Berlin", "FLE", "French as Foreign Language", "A1", "A2", "B1", "B2", "C1", "C2"]
-description = "Romain Aubry - Experienced French Language Teacher in Berlin, specializing in teaching French as a foreign language (FLE) for all levels (A1-C2)"
+keywords = ["French", "Language", "Teacher", "Berlin", "FLE", "French as Foreign Language", "A1", "A2", "B1", "B2", "C1", "C2", "DELF", "DALF", "Französischlehrer"]
+description = "Französischlehrer in Berlin | Erfahrener FLE-Dozent an TU, FU & HU Berlin | Alle Niveaus A1-C2 | DELF/DALF Prüfer | Individuelle & flexible Online-Kurse"
 author = "Romain Aubry"
 twitter = ""
-image = "images/og-image.png"
+image = "images/uploads/profilepicture.jpg"
 
 
 # site verifications

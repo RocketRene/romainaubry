@@ -1,9 +1,7 @@
 ---
 title: Über Romain Aubry
 meta_title: Über Romain Aubry - Französischlehrer in Berlin
-description: Erfahren Sie mehr über Romain Aubry, einen erfahrenen
-  Französischlehrer in Berlin, spezialisiert auf Französisch als Fremdsprache
-  (FLE).
+description: Französischlehrer in Berlin | FLE-Dozent an TU, FU & HU Berlin | Alle Niveaus A1-C2 | DELF/DALF Prüfer | Individuelle Online & Präsenz-Kurse
 image: /images/uploads/profilepicture.jpg
 draft: false
 ---
