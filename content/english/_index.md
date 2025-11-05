@@ -5,7 +5,7 @@ banner:
     specializing in teaching French as a foreign language (FLE) to learners of
     all levels from A1 to C2. Currently Dozent at TU Berlin, FU Berlin, and HU
     Berlin.
-  image: /images/uploads/profilepicture.jpg
+  image: /images/uploads/cxwkcahvaaaeuf4_format-png-name-medium.png
   button:
     enable: true
     label: Contact Me
