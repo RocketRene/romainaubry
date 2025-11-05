@@ -1,15 +1,15 @@
 backend:
   name: gitlab
-  repo: RocketRene/romainaubry
+  repo: rocketrene/romainaubry
   auth_type: pkce # Enable PKCE authentication
-  app_id: YOUR_GITLAB_APP_ID # IMPORTANT: Replace this placeholder with your actual GitLab Application ID before deploying
+  app_id: f836e0755fb8d9b8cb70f23728fd9e5cec4b32fc53ea0e434fa4ec0375b78449
   
 # When using PKCE, the auth endpoint will be:
 # https://gitlab.com/oauth/authorize
 # No client secret is needed as PKCE uses code verifier/challenge
 
 # Publish mode
-publish_mode: editorial_workflow
+publish_mode: simple
 
 # Media and Public folders
 media_folder: "static/images/uploads"
@@ -18,37 +18,41 @@ public_folder: "/images/uploads"
 # Internationalization (i18n)
 i18n:
   structure: multiple_folders
-  locales: [de, fr, en]
-  default_locale: de
+  locales: [german, french, english]
+  default_locale: german
 
 # Collections
 collections:
   # About Pages
   - name: "about"
     label: "About Page"
-    i18n: true
+    i18n:
+      structure: multiple_folders
+      locales: [german, french, english]
     files:
       - label: "About Page"
         name: "about"
         i18n: true
-        file: "content/german/about/_index.md"
+        file: "content/{{locale}}/about/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", i18n: true}
           - {label: "Meta Title", name: "meta_title", widget: "string", i18n: true}
           - {label: "Description", name: "description", widget: "string", i18n: true}
-          - {label: "Image", name: "image", widget: "image", i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: duplicate}
           - {label: "Draft", name: "draft", widget: "boolean", default: false, i18n: duplicate}
           - {label: "Body", name: "body", widget: "markdown", i18n: true}
 
   # Contact Pages
   - name: "contact"
     label: "Contact Page"
-    i18n: true
+    i18n:
+      structure: multiple_folders
+      locales: [german, french, english]
     files:
       - label: "Contact Page"
         name: "contact"
         i18n: true
-        file: "content/german/contact/_index.md"
+        file: "content/{{locale}}/contact/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", i18n: true}
           - {label: "Meta Title", name: "meta_title", widget: "string", i18n: true}
@@ -59,12 +63,14 @@ collections:
   # Homepage
   - name: "homepage"
     label: "Homepage"
-    i18n: true
+    i18n:
+      structure: multiple_folders
+      locales: [german, french, english]
     files:
       - label: "Homepage"
         name: "homepage"
         i18n: true
-        file: "content/german/_index.md"
+        file: "content/{{locale}}/_index.md"
         fields:
           - label: "Banner"
             name: "banner"
@@ -73,7 +79,7 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string", i18n: true}
               - {label: "Content", name: "content", widget: "text", i18n: true}
-              - {label: "Image", name: "image", widget: "image", i18n: true}
+              - {label: "Image", name: "image", widget: "image", i18n: duplicate}
               - label: "Button"
                 name: "button"
                 widget: "object"
@@ -81,14 +87,14 @@ collections:
                 fields:
                   - {label: "Enable", name: "enable", widget: "boolean", i18n: duplicate}
                   - {label: "Label", name: "label", widget: "string", i18n: true}
-                  - {label: "Link", name: "link", widget: "string", i18n: true}
+                  - {label: "Link", name: "link", widget: "string", i18n: duplicate}
           - label: "Features"
             name: "features"
             widget: "list"
             i18n: true
             fields:
               - {label: "Title", name: "title", widget: "string", i18n: true}
-              - {label: "Image", name: "image", widget: "image", i18n: true}
+              - {label: "Image", name: "image", widget: "image", i18n: duplicate}
               - {label: "Content", name: "content", widget: "text", i18n: true}
               - label: "Bulletpoints"
                 name: "bulletpoints"
@@ -102,7 +108,7 @@ collections:
                 fields:
                   - {label: "Enable", name: "enable", widget: "boolean", i18n: duplicate}
                   - {label: "Label", name: "label", widget: "string", i18n: true}
-                  - {label: "Link", name: "link", widget: "string", i18n: true}
+                  - {label: "Link", name: "link", widget: "string", i18n: duplicate}
 
   # Blog Posts
   - name: "blog-de"
