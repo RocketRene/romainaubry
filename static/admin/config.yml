@@ -1,29 +1,27 @@
+# Backend configuration
 backend:
   name: gitlab
   repo: rocketrene/romainaubry
-  auth_type: pkce # Enable PKCE authentication
+  auth_type: pkce
   app_id: f836e0755fb8d9b8cb70f23728fd9e5cec4b32fc53ea0e434fa4ec0375b78449
-  
-# When using PKCE, the auth endpoint will be:
-# https://gitlab.com/oauth/authorize
-# No client secret is needed as PKCE uses code verifier/challenge
+  branch: main
 
-# Publish mode
+# Enable local development mode (works with actual files)
+local_backend: true
+
 publish_mode: simple
 
-# Media and Public folders
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
-# Collections
 collections:
   # About Pages
   - name: "about"
     label: "About Pages"
     files:
-      - label: "About (German)"
-        name: "about-de"
-        file: "content/german/about/_index.md"
+      - label: "About (English)"
+        name: "about-en"
+        file: "content/english/about/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
@@ -41,9 +39,9 @@ collections:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Draft", name: "draft", widget: "boolean", default: false}
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "About (English)"
-        name: "about-en"
-        file: "content/english/about/_index.md"
+      - label: "About (German)"
+        name: "about-de"
+        file: "content/german/about/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
@@ -56,9 +54,9 @@ collections:
   - name: "contact"
     label: "Contact Pages"
     files:
-      - label: "Contact (German)"
-        name: "contact-de"
-        file: "content/german/contact/_index.md"
+      - label: "Contact (English)"
+        name: "contact-en"
+        file: "content/english/contact/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
@@ -74,9 +72,9 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Draft", name: "draft", widget: "boolean", default: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
-      - label: "Contact (English)"
-        name: "contact-en"
-        file: "content/english/contact/_index.md"
+      - label: "Contact (German)"
+        name: "contact-de"
+        file: "content/german/contact/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
@@ -84,13 +82,45 @@ collections:
           - {label: "Draft", name: "draft", widget: "boolean", default: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
 
+  # Students Pages
+  - name: "students"
+    label: "Students Pages"
+    files:
+      - label: "Students (English)"
+        name: "students-en"
+        file: "content/english/students/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Students (French)"
+        name: "students-fr"
+        file: "content/french/students/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Students (German)"
+        name: "students-de"
+        file: "content/german/students/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   # Homepage
   - name: "homepage"
     label: "Homepage"
     files:
-      - label: "Homepage (German)"
-        name: "homepage-de"
-        file: "content/german/_index.md"
+      - label: "Homepage (English)"
+        name: "homepage-en"
+        file: "content/english/_index.md"
         fields:
           - label: "Banner"
             name: "banner"
@@ -160,9 +190,9 @@ collections:
                   - {label: "Enable", name: "enable", widget: "boolean"}
                   - {label: "Label", name: "label", widget: "string"}
                   - {label: "Link", name: "link", widget: "string"}
-      - label: "Homepage (English)"
-        name: "homepage-en"
-        file: "content/english/_index.md"
+      - label: "Homepage (German)"
+        name: "homepage-de"
+        file: "content/german/_index.md"
         fields:
           - label: "Banner"
             name: "banner"
@@ -197,42 +227,172 @@ collections:
                   - {label: "Label", name: "label", widget: "string"}
                   - {label: "Link", name: "link", widget: "string"}
 
-  # Students Pages
-  - name: "students"
-    label: "Students Pages"
+  # Privacy Policy
+  - name: "privacy"
+    label: "Privacy Policy"
     files:
-      - label: "Students (German)"
-        name: "students-de"
-        file: "content/german/students/_index.md"
+      - label: "Privacy (English)"
+        name: "privacy-en"
+        file: "content/english/pages/privacy-policy.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Draft", name: "draft", widget: "boolean", default: false}
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Students (French)"
-        name: "students-fr"
-        file: "content/french/students/_index.md"
+      - label: "Privacy (French)"
+        name: "privacy-fr"
+        file: "content/french/pages/privacy-policy.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Draft", name: "draft", widget: "boolean", default: false}
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Students (English)"
-        name: "students-en"
-        file: "content/english/students/_index.md"
+      - label: "Privacy (German)"
+        name: "privacy-de"
+        file: "content/german/pages/privacy-policy.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Draft", name: "draft", widget: "boolean", default: false}
           - {label: "Body", name: "body", widget: "markdown"}
 
+  # Sections - Call to Action
+  - name: "cta"
+    label: "Call to Action"
+    files:
+      - label: "CTA (English)"
+        name: "cta-en"
+        file: "content/english/sections/call-to-action.md"
+        fields:
+          - {label: "Enable", name: "enable", widget: "boolean", default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
+          - label: "Button"
+            name: "button"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean"}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+          - label: "Build"
+            name: "build"
+            widget: "object"
+            fields:
+              - {label: "Render", name: "render", widget: "string"}
+      - label: "CTA (French)"
+        name: "cta-fr"
+        file: "content/french/sections/call-to-action.md"
+        fields:
+          - {label: "Enable", name: "enable", widget: "boolean", default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
+          - label: "Button"
+            name: "button"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean"}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+          - label: "Build"
+            name: "build"
+            widget: "object"
+            fields:
+              - {label: "Render", name: "render", widget: "string"}
+      - label: "CTA (German)"
+        name: "cta-de"
+        file: "content/german/sections/call-to-action.md"
+        fields:
+          - {label: "Enable", name: "enable", widget: "boolean", default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
+          - label: "Button"
+            name: "button"
+            widget: "object"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean"}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+          - label: "Build"
+            name: "build"
+            widget: "object"
+            fields:
+              - {label: "Render", name: "render", widget: "string"}
+
+  # Sections - Testimonials
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - label: "Testimonials (English)"
+        name: "testimonials-en"
+        file: "content/english/sections/testimonial.md"
+        fields:
+          - {label: "Enable", name: "enable", widget: "boolean", default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Testimonials List"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Designation", name: "designation", widget: "string"}
+              - {label: "Avatar", name: "avatar", widget: "image"}
+              - {label: "Content", name: "content", widget: "text"}
+          - label: "Build"
+            name: "build"
+            widget: "object"
+            fields:
+              - {label: "Render", name: "render", widget: "string"}
+      - label: "Testimonials (French)"
+        name: "testimonials-fr"
+        file: "content/french/sections/testimonial.md"
+        fields:
+          - {label: "Enable", name: "enable", widget: "boolean", default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Testimonials List"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Designation", name: "designation", widget: "string"}
+              - {label: "Avatar", name: "avatar", widget: "image"}
+              - {label: "Content", name: "content", widget: "text"}
+          - label: "Build"
+            name: "build"
+            widget: "object"
+            fields:
+              - {label: "Render", name: "render", widget: "string"}
+      - label: "Testimonials (German)"
+        name: "testimonials-de"
+        file: "content/german/sections/testimonial.md"
+        fields:
+          - {label: "Enable", name: "enable", widget: "boolean", default: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text", required: false}
+          - label: "Testimonials List"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Designation", name: "designation", widget: "string"}
+              - {label: "Avatar", name: "avatar", widget: "image"}
+              - {label: "Content", name: "content", widget: "text"}
+          - label: "Build"
+            name: "build"
+            widget: "object"
+            fields:
+              - {label: "Render", name: "render", widget: "string"}
+
   # Blog Posts
-  - name: "blog-de"
-    label: "Blog (Deutsch)"
-    folder: "content/german/blog"
+  - name: "blog-en"
+    label: "Blog (English)"
+    folder: "content/english/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -241,8 +401,9 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -257,14 +418,15 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "blog-en"
-    label: "Blog (English)"
-    folder: "content/english/blog"
+  - name: "blog-de"
+    label: "Blog (Deutsch)"
+    folder: "content/german/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -273,14 +435,15 @@ collections:
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  # Settings
-  - name: "settings"
-    label: "Settings"
+  # Data files
+  - name: "data"
+    label: "Site Data"
     files:
       - label: "Social Links"
         name: "social"
