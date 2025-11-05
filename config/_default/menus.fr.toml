@@ -32,8 +32,8 @@ url = "/contact"
 
 [[main]]
 parent = "Pages"
-name = "Auteurs"
-url = "/authors"
+name = "Étudiants"
+url = "/students"
 
 [[main]]
 parent = "Pages"
@@ -61,3 +61,8 @@ weight = 2
 name = "Politique de confidentialité"
 url = "/privacy-policy"
 weight = 3
+
+[[footer]]
+name = "Admin"
+url = "/admin"
+weight = 4

@@ -6,29 +6,91 @@ image: "/images/avatar.png"
 draft: false
 ---
 
-## Willkommen!
+## Beruflicher Überblick
 
-Ich bin Romain Aubry, ein erfahrener Französischlehrer mit Sitz in Berlin, Deutschland. Mit einer Leidenschaft für das Unterrichten und einer tiefen Liebe zur französischen Sprache und Kultur spezialisiere ich mich darauf, Schülern aller Niveaus zu helfen, Französisch als Fremdsprache (FLE) zu meistern.
+Ich bin Romain Aubry, ein erfahrener Französischlehrer mit Sitz in Berlin, spezialisiert auf das Unterrichten von Französisch als Fremdsprache (FLE) für Lernende aller Niveaus (A1-C2). Mit einem einzigartigen Hintergrund, der Bildung, Geisteswissenschaften und Wirtschaft kombiniert, bringe ich einen vielseitigen Ansatz zum Sprachunterricht mit, der sowohl professionell anspruchsvoll als auch persönlich anpassbar ist.
 
-## Meine Unterrichtsphilosophie
+## Aktuelle Positionen & Expertise
 
-Mein Ansatz beim Französischunterricht konzentriert sich auf die Schaffung einer ansprechenden, unterstützenden und personalisierten Lernumgebung. Ich glaube, dass das Sprachenlernen sowohl herausfordernd als auch angenehm sein sollte, indem strukturierte Lektionen mit realen Anwendungen und kulturellen Einblicken kombiniert werden.
+Derzeit unterrichte ich an Berlins renommiertesten akademischen Institutionen:
 
-## Erfahrung und Qualifikationen
+- **Technische Universität Berlin** (Dozent, seit April 2024)
+- **Freie Universität Berlin** (Dozent, seit April 2024)
+- **Humboldt-Universität zu Berlin** (Dozent, seit September 2023)
+- **Institut français Berlin** (Kursleiter, seit Februar 2022)
+- **France Éducation international** (DELF/DALF Prüfer-Korrektor, seit Juni 2021)
 
-Mit jahrelanger Erfahrung im Unterrichten von Französisch als Fremdsprache habe ich mit Schülern aus unterschiedlichen Hintergründen und verschiedenen Kompetenzniveaus gearbeitet, von absoluten Anfängern (A1) bis zu fortgeschrittenen Lernenden (C2). Ich verstehe die einzigartigen Herausforderungen, mit denen Nicht-Muttersprachler konfrontiert sind, und passe meine Unterrichtsmethoden entsprechend an.
+Zuvor unterrichtete ich an der **Volkshochschule Potsdam** (2022-2024) und gab B1- und B2-Kurse.
 
-## Was ich Anbiete
+## Qualifikationen & Zertifizierungen
 
-- **Einzelunterricht**: Personalisierte Einzelanleitung, die auf Ihre spezifischen Ziele und Ihren Lernstil zugeschnitten ist
-- **Gruppenkurse**: Interaktive Kleingruppensitzungen für kollaboratives Lernen
-- **Prüfungsvorbereitung**: Spezialisierte Vorbereitung auf DELF- und DALF-Zertifizierungsprüfungen
-- **Business-Französisch**: Professionelle französische Sprachkenntnisse für den Arbeitsplatz
-- **Konversationsfranzösisch**: Fokus auf praktische Sprech- und Hörfähigkeiten
-- **Kulturelle Immersion**: Erfahren Sie mehr über französische Kultur, Bräuche und zeitgenössisches Leben
+- **Master 2 in FLE** (Französisch als Fremdsprache) - Université Sorbonne Nouvelle (2023)
+- **Master 1 in FLE** - Université Paris Nanterre (2018-2019)
+- **Master Grande École** - ESC Clermont-Ferrand (2009-2012)
+- **Lizenzierter DELF/DALF Prüfer-Korrektor** (alle Niveaus A1-C2, Allgemeinheit und Akademisch)
+- Zusätzliche Zertifizierungen in zeitgenössischen Französisch-Unterrichtsmethoden
 
-## Mein Engagement
+## Unterrichtsphilosophie & Stil
 
-Ob Sie Französisch für beruflichen Aufstieg, akademische Anforderungen, Reisen oder persönliche Bereicherung lernen, ich bin bestrebt, Ihnen zu helfen, Ihre Sprachlernziele zu erreichen. Mit Sitz in Berlin verstehe ich die Bedürfnisse internationaler Lernender und bin entschlossen, Ihre Französisch-Lernreise sowohl effektiv als auch angenehm zu gestalten.
+Mein Unterrichtsansatz zeichnet sich aus durch:
+
+- **Flexibilität & Personalisierung**: Ich passe Unterrichtsmethoden an individuelle Lernstile und berufliche/persönliche Bedürfnisse an
+- **Praktischer Kommunikationsfokus**: Betonung auf realweltlichen Sprachgebrauch, Humor und gesprächige Flüssigkeit
+- **Entgegenkommend & Geduldig**: Ich arbeite mit persönlichen und beruflichen Einschränkungen, um optimale Lernbedingungen zu schaffen
+- **Umfassende Niveauabdeckung**: Expertise über alle GER-Niveaus von kompletten Anfängern bis zu fortgeschrittenen Lernenden
+
+## Dienstleistungsangebot
+
+- **Einzelunterricht**: 60-minütige personalisierte Sitzungen (flexible Terminplanung)
+- **Online & Präsenz**: Beide Formate verfügbar, um Kundenpräferenzen zu entsprechen
+- **Alle Kompetenzniveaus**: A1 (Anfänger) bis C2 (Beherrschung)
+- **Prüfungsvorbereitung**: Spezialisierte DELF/DALF-Vorbereitung mit Insider-Prüferwissen
+- **Professionelles Französisch**: Geschäfts- und akademisches Französisch
+- **Verfügbarkeit**: Montag-Samstag, 9:00-21:00 Uhr
+
+## Einzigartiger Hintergrund
+
+Bevor ich zur Sprachausbildung wechselte, verbrachte ich fast ein Jahrzehnt im Personalwesen und Recruiting bei großen französischen Unternehmen (AXA, Veolia, Versicherungssektor), was mir wertvolle Einblicke gibt in:
+
+- Professionelle Kommunikationsbedürfnisse
+- Unternehmensspezifische Französisch-Sprachanforderungen
+- Erwachsenenlernen und berufliche Entwicklung
+- Interkulturelle Geschäftskommunikation
+
+## Akademische Grundlage
+
+Mein vielfältiger Bildungshintergrund umfasst:
+
+- Philosophie (Durham University, UK)
+- Politikwissenschaft (Université Paris Nanterre)
+- Wirtschaft & Management (Grande École)
+- Spezialisierte FLE-Pädagogik und Linguistik
+
+## Sprachen & Internationale Erfahrung
+
+- **Französischer Muttersprachler** (39 Jahre alt)
+- **Fließend Englisch** (Studium in UK)
+- In der Region Berlin ansässig mit tiefem Verständnis des deutschen kulturellen Kontexts
+- Internationale Unterrichtserfahrung in Paris und Berlin
+
+## Standort
+
+- **Ansässig in**: Zehlendorf, Berlin (bedient Großraum Berlin und Potsdam)
+
+## Wichtige Unterscheidungsmerkmale
+
+1. **Akademische Glaubwürdigkeit**: Unterrichtet derzeit an drei der besten Universitäten Berlins gleichzeitig
+2. **Offizieller Prüferstatus**: Zertifiziert zur Durchführung und Korrektur offizieller französischer Kompetenzprüfungen
+3. **Doppelte Expertise**: Kombiniert pädagogische Exzellenz mit Geschäftsweltverständnis
+4. **Nachgewiesene Erfolgsbilanz**: Über 6 Jahre engagierte Französisch-Unterrichtserfahrung in Berlin
+5. **Umfassender Ansatz**: Ausbildung in Geisteswissenschaften, Sozialwissenschaften und Unternehmensführung
+
+## Zielgruppe
+
+- Internationale Fachkräfte in Berlin, die Französisch für den Karrierefortschritt benötigen
+- Universitätsstudenten, die akademisches Französisch benötigen
+- Expats und Neuankömmlinge in frankophonen Umgebungen
+- Prüfungskandidaten (DELF/DALF-Vorbereitung)
+- Jeder, der personalisierten, hochwertigen Französischunterricht von einem zertifizierten Fachmann sucht
 
 Lassen Sie uns gemeinsam Ihr Französisch-Lernabenteuer beginnen!
