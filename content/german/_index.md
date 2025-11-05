@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Lernen Sie Französisch mit Romain Aubry in Berlin"
-  content: "Erfahrener Französischlehrer, spezialisiert auf Französisch als Fremdsprache (FLE) für alle Niveaus von A1 bis C2."
+  content: "Erfahrener Französischlehrer und zertifizierter DELF/DALF-Prüfer, spezialisiert auf Französisch als Fremdsprache (FLE) für alle Niveaus von A1 bis C2. Derzeit Dozent an der TU Berlin, FU Berlin und HU Berlin."
   image: "/images/banner.png"
   button:
     enable: true
@@ -13,14 +13,14 @@ banner:
 features:
   - title: "Professioneller Französischunterricht"
     image: "/images/service-1.png"
-    content: "Als erfahrener Französischlehrer in Berlin biete ich personalisierten Französischunterricht an, der auf Ihre Bedürfnisse und Ziele zugeschnitten ist."
+    content: "Als erfahrener Französischlehrer unterrichte ich derzeit an drei der renommiertesten Universitäten Berlins: TU Berlin, FU Berlin und HU Berlin. Mit über 6 Jahren Erfahrung im FLE-Unterricht biete ich personalisierten Unterricht an."
     bulletpoints:
+      - "Dozent an TU Berlin, FU Berlin und HU Berlin"
+      - "Zertifizierter DELF/DALF Prüfer-Korrektor (A1-C2)"
+      - "Lehrkraft am Institut français Berlin"
+      - "Master 2 in FLE (Sorbonne Nouvelle, 2023)"
       - "Unterricht für alle Niveaus: A1, A2, B1, B2, C1, C2"
-      - "Spezialisiert auf Französisch als Fremdsprache (FLE)"
-      - "Einzel- und Gruppenunterricht verfügbar"
-      - "Flexible Terminplanung für Ihren Lebensstil"
-      - "Schwerpunkt auf Konversationsfähigkeiten und praktisches Französisch"
-      - "Vorbereitung auf DELF/DALF-Prüfungen"
+      - "Flexible Terminplanung: Montag-Samstag, 9:00-21:00 Uhr"
     button:
       enable: true
       label: "Mehr erfahren"
@@ -28,13 +28,14 @@ features:
 
   - title: "Warum Französisch mit mir lernen?"
     image: "/images/service-2.png"
-    content: "Mein Unterrichtsansatz kombiniert traditionelle Methodik mit modernen, ansprechenden Techniken, um das Französischlernen angenehm und effektiv zu gestalten."
+    content: "Mit einem einzigartigen Hintergrund, der akademische Exzellenz und fast 10 Jahre Erfahrung im Personalwesen bei großen französischen Unternehmen (AXA, Veolia) kombiniert, verstehe ich die Bedürfnisse von Lernenden."
     bulletpoints:
-      - "Französischer Muttersprachler mit umfangreicher Unterrichtserfahrung"
-      - "In Berlin ansässig, verstehe die Bedürfnisse internationaler Lernender"
-      - "Maßgeschneiderte Unterrichtspläne für individuelle Lernstile"
-      - "Kulturelle Einblicke und reale Sprachanwendung"
-      - "Geduldige und unterstützende Lernumgebung"
+      - "Akademische Glaubwürdigkeit: Dozent an drei Top-Universitäten"
+      - "Offizieller DELF/DALF Prüferstatus - Insider-Prüfungswissen"
+      - "Doppelte Expertise: Pädagogik + Geschäftswelt"
+      - "Flexible & personalisierte Unterrichtsmethoden"
+      - "Französischer Muttersprachler, fließend Englisch"
+      - "Praktischer Kommunikationsfokus mit Humor"
     button:
       enable: true
       label: "Loslegen"
@@ -42,14 +43,14 @@ features:
 
   - title: "Flexible Lernoptionen"
     image: "/images/service-3.png"
-    content: "Ob Sie Anfänger sind oder Ihr Französisch perfektionieren möchten, ich biete verschiedene Lernoptionen an, die zu Ihrem Zeitplan und Ihren Vorlieben passen."
+    content: "Ob Sie kompletter Anfänger oder fortgeschrittener Lernender sind, ob für Karriere, Studium oder persönliche Bereicherung - ich biete maßgeschneiderte Lernoptionen für Ihre Bedürfnisse."
     bulletpoints:
-      - "Präsenzunterricht in Berlin"
+      - "Einzelunterricht: 60-minütige personalisierte Sessions"
+      - "Präsenzunterricht in Berlin (Zehlendorf)"
       - "Online-Unterricht per Videoanruf"
-      - "Persönlicher Einzelunterricht"
-      - "Kleine Gruppen für interaktives Lernen"
+      - "DELF/DALF Prüfungsvorbereitung mit Expertenwissen"
       - "Business-Französisch für Fachleute"
-      - "Konversationspraxis und kultureller Austausch"
+      - "Akademisches Französisch für Universitätsstudenten"
     button:
       enable: true
       label: "Kontaktieren Sie mich"

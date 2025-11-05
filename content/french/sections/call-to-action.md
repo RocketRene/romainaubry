@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Ready to build your next project with Hugo?"
+title: "Prêt à commencer votre voyage d'apprentissage du français ?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility."
+description: "Apprenez avec un Dozent certifié des meilleures universités de Berlin et examinateur DELF/DALF officiel. Horaires flexibles, enseignement personnalisé, résultats prouvés."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/hugoplate"
+  label: "Contactez-moi maintenant"
+  link: "/contact"
 
 # don't create a separate page
 build:

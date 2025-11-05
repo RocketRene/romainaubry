@@ -1,7 +1,7 @@
 ---
-enable: true
-title: "What Users Are Saying About Hugoplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+enable: false
+title: "Was meine Schüler sagen"
+description: "Erfahrungsberichte von zufriedenen Lernenden, die ihre Französischkenntnisse mit mir verbessert haben."
 
 # Testimonials
 testimonials:

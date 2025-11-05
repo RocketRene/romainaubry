@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Learn French with Romain Aubry in Berlin"
-  content: "Experienced French language educator specializing in teaching French as a foreign language (FLE) to learners of all levels from A1 to C2."
+  content: "Experienced French language educator and certified DELF/DALF examiner specializing in teaching French as a foreign language (FLE) to learners of all levels from A1 to C2. Currently Dozent at TU Berlin, FU Berlin, and HU Berlin."
   image: "/images/banner.png"
   button:
     enable: true
@@ -13,14 +13,14 @@ banner:
 features:
   - title: "Professional French Language Teaching"
     image: "/images/service-1.png"
-    content: "As an experienced French language educator based in Berlin, I offer personalized French lessons tailored to your needs and goals."
+    content: "As an experienced French language educator, I currently teach at three of Berlin's most prestigious universities: TU Berlin, FU Berlin, and HU Berlin. With over 6 years of FLE teaching experience, I offer personalized instruction."
     bulletpoints:
+      - "Dozent at TU Berlin, FU Berlin, and HU Berlin"
+      - "Certified DELF/DALF Examiner-Corrector (A1-C2)"
+      - "Course instructor at Institut français Berlin"
+      - "Master 2 in FLE (Sorbonne Nouvelle, 2023)"
       - "Teaching all levels: A1, A2, B1, B2, C1, C2"
-      - "Specialized in French as a Foreign Language (FLE)"
-      - "Individual and group lessons available"
-      - "Flexible scheduling to fit your lifestyle"
-      - "Focus on conversational skills and practical French"
-      - "Preparation for DELF/DALF exams"
+      - "Flexible scheduling: Monday-Saturday, 9:00-21:00"
     button:
       enable: true
       label: "Learn More"
@@ -28,13 +28,14 @@ features:
 
   - title: "Why Learn French with Me?"
     image: "/images/service-2.png"
-    content: "My teaching approach combines traditional methodology with modern, engaging techniques to make learning French enjoyable and effective."
+    content: "With a unique background combining academic excellence and nearly 10 years of experience in human resources at major French corporations (AXA, Veolia), I understand learners' needs."
     bulletpoints:
-      - "Native French speaker with extensive teaching experience"
-      - "Based in Berlin, understanding the needs of international learners"
-      - "Customized lesson plans for individual learning styles"
-      - "Cultural insights and real-world language application"
-      - "Patient and supportive learning environment"
+      - "Academic credibility: Dozent at three top universities"
+      - "Official DELF/DALF examiner status - insider exam knowledge"
+      - "Dual expertise: Pedagogy + business world"
+      - "Flexible & personalized teaching methods"
+      - "Native French speaker, fluent English"
+      - "Practical communication focus with humor"
     button:
       enable: true
       label: "Get Started"
@@ -42,14 +43,14 @@ features:
 
   - title: "Flexible Learning Options"
     image: "/images/service-3.png"
-    content: "Whether you're a beginner or looking to perfect your French, I offer various learning options to suit your schedule and preferences."
+    content: "Whether you're a complete beginner or advanced learner, whether for career, studies, or personal enrichment - I offer tailored learning options for your needs."
     bulletpoints:
-      - "In-person lessons in Berlin"
+      - "Individual lessons: 60-minute personalized sessions"
+      - "In-person lessons in Berlin (Zehlendorf)"
       - "Online lessons via video call"
-      - "One-on-one personalized instruction"
-      - "Small group classes for interactive learning"
+      - "DELF/DALF exam preparation with expert knowledge"
       - "Business French for professionals"
-      - "Conversation practice and cultural exchange"
+      - "Academic French for university students"
     button:
       enable: true
       label: "Contact Me"
