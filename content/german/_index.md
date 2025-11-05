@@ -4,7 +4,7 @@ banner:
   content: Erfahrener Französischlehrer und zertifizierter DELF/DALF-Prüfer,
     spezialisiert auf Französisch als Fremdsprache (FLE) für alle Niveaus von A1
     bis C2. Derzeit Dozent an der TU Berlin, FU Berlin und HU Berlin.
-  image: /images/uploads/cxwkcahvaaaeuf4_format-png-name-medium.png
+  image: /images/uploads/profilepicture.jpg
   button:
     enable: true
     label: Kontaktieren Sie mich
