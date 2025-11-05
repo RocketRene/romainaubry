@@ -1,24 +1,19 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
+      "name": "email",
+      "icon": "fas fa-envelope",
+      "link": "mailto:ra.romainaubry@gmail.com"
     },
     {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
-    },
-    {
-      "name": "github",
-      "icon": "fab fa-github",
-      "link": "https://www.github.com/"
+      "name": "phone",
+      "icon": "fas fa-phone",
+      "link": "tel:+4915150765458"
     },
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://linkedin.com/in/romainaubry"
     }
   ]
 }

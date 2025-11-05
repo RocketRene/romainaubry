@@ -6,29 +6,91 @@ image: "/images/avatar.png"
 draft: false
 ---
 
-## Welcome!
+## Professional Overview
 
-I'm Romain Aubry, an experienced French language educator based in Berlin, Germany. With a passion for teaching and a deep love for the French language and culture, I specialize in helping students of all levels master French as a foreign language (FLE).
+I'm Romain Aubry, an experienced French language educator based in Berlin, specializing in teaching French as a foreign language (FLE) to learners of all levels (A1-C2). With a unique background combining education, humanities, and business, I bring a multifaceted approach to language instruction that is both professionally rigorous and personally adaptable.
 
-## My Teaching Philosophy
+## Current Positions & Expertise
 
-My approach to teaching French is centered on creating an engaging, supportive, and personalized learning environment. I believe that language learning should be both challenging and enjoyable, combining structured lessons with real-world applications and cultural insights.
+Currently teaching at Berlin's most prestigious academic institutions:
 
-## Experience & Qualifications
+- **Technische Universität Berlin** (Dozent, since April 2024)
+- **Freie Universität Berlin** (Dozent, since April 2024)
+- **Humboldt-Universität zu Berlin** (Dozent, since September 2023)
+- **Institut français Berlin** (Course instructor, since February 2022)
+- **France Éducation international** (DELF/DALF Examiner-Corrector, since June 2021)
 
-With years of experience teaching French as a foreign language, I have worked with students from diverse backgrounds and varying proficiency levels, from complete beginners (A1) to advanced learners (C2). I understand the unique challenges that non-native speakers face and tailor my teaching methods accordingly.
+Previously taught at **Volkshochschule Potsdam** (2022-2024), delivering B1 and B2 level courses.
 
-## What I Offer
+## Qualifications & Certifications
 
-- **Individual Lessons**: Personalized one-on-one instruction tailored to your specific goals and learning style
-- **Group Classes**: Interactive small group sessions for collaborative learning
-- **Exam Preparation**: Specialized preparation for DELF and DALF certification exams
-- **Business French**: Professional French language skills for the workplace
-- **Conversational French**: Focus on practical speaking and listening skills
-- **Cultural Immersion**: Learn about French culture, customs, and contemporary life
+- **Master 2 in FLE** (French as a Foreign Language) - Université Sorbonne Nouvelle (2023)
+- **Master 1 in FLE** - Université Paris Nanterre (2018-2019)
+- **Master Grande École** - ESC Clermont-Ferrand (2009-2012)
+- **Licensed DELF/DALF Examiner-Corrector** (all levels A1-C2, general public and academic)
+- Additional certifications in contemporary French language teaching methods
 
-## My Commitment
+## Teaching Philosophy & Style
 
-Whether you're learning French for professional advancement, academic requirements, travel, or personal enrichment, I'm committed to helping you achieve your language learning goals. Based in Berlin, I understand the needs of international learners and am dedicated to making your French learning journey both effective and enjoyable.
+My teaching approach is characterized by:
+
+- **Flexibility & Personalization**: Adapts teaching methods to individual learning styles and professional/personal needs
+- **Practical Communication Focus**: Emphasis on real-world language use, humor, and conversational fluency
+- **Accommodating & Patient**: Works with personal and professional constraints to create optimal learning conditions
+- **Comprehensive Level Coverage**: Expertise across all CEFR levels from complete beginners to advanced learners
+
+## Service Offerings
+
+- **Individual Lessons**: 60-minute personalized sessions (flexible scheduling)
+- **Online & In-Person**: Both formats available to suit client preferences
+- **All Proficiency Levels**: A1 (beginner) to C2 (mastery)
+- **Exam Preparation**: Specialized DELF/DALF preparation with insider examiner knowledge
+- **Professional French**: Business and academic French instruction
+- **Availability**: Monday-Saturday, 9:00-21:00
+
+## Unique Background
+
+Before transitioning to language education, I spent nearly a decade in human resources and recruitment across major French corporations (AXA, Veolia, insurance sector), giving me valuable insight into:
+
+- Professional communication needs
+- Corporate French language requirements
+- Adult learning and professional development
+- Cross-cultural business communication
+
+## Academic Foundation
+
+My diverse educational background includes:
+
+- Philosophy (Durham University, UK)
+- Political Science (Université Paris Nanterre)
+- Business & Management (Grande École)
+- Specialized FLE pedagogy and linguistics
+
+## Languages & International Experience
+
+- **Native French speaker** (39 years old)
+- **Fluent English** (studied in UK)
+- Based in Berlin region with deep understanding of German cultural context
+- International teaching experience in Paris and Berlin
+
+## Location
+
+- **Based in**: Zehlendorf, Berlin (serves greater Berlin and Potsdam region)
+
+## Key Differentiators
+
+1. **Academic Credibility**: Currently teaching at three of Berlin's top universities simultaneously
+2. **Official Examiner Status**: Certified to administer and correct official French proficiency exams
+3. **Dual Expertise**: Combines pedagogical excellence with business world understanding
+4. **Proven Track Record**: 6+ years dedicated French teaching experience in Berlin
+5. **Comprehensive Approach**: Education spanning humanities, social sciences, and business management
+
+## Target Audience
+
+- International professionals in Berlin requiring French for career advancement
+- University students needing academic French
+- Expats and newcomers to francophone environments
+- Exam candidates (DELF/DALF preparation)
+- Anyone seeking personalized, high-quality French instruction from a certified professional
 
 Let's start your French learning adventure together!

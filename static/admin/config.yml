@@ -1,0 +1,173 @@
+backend:
+  name: gitlab
+  repo: RocketRene/romainaubry
+  auth_type: pkce # Enable PKCE authentication
+  app_id: YOUR_GITLAB_APP_ID # Replace with your GitLab Application ID
+  
+# When using PKCE, the auth endpoint will be:
+# https://gitlab.com/oauth/authorize
+# No client secret is needed as PKCE uses code verifier/challenge
+
+# Publish mode
+publish_mode: editorial_workflow
+
+# Media and Public folders
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+# Internationalization (i18n)
+i18n:
+  structure: multiple_folders
+  locales: [de, fr, en]
+  default_locale: de
+
+# Collections
+collections:
+  # About Pages
+  - name: "about"
+    label: "About Page"
+    i18n: true
+    files:
+      - label: "About Page"
+        name: "about"
+        i18n: true
+        file: "content/german/about/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Meta Title", name: "meta_title", widget: "string", i18n: true}
+          - {label: "Description", name: "description", widget: "string", i18n: true}
+          - {label: "Image", name: "image", widget: "image", i18n: true}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false, i18n: duplicate}
+          - {label: "Body", name: "body", widget: "markdown", i18n: true}
+
+  # Contact Pages
+  - name: "contact"
+    label: "Contact Page"
+    i18n: true
+    files:
+      - label: "Contact Page"
+        name: "contact"
+        i18n: true
+        file: "content/german/contact/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", i18n: true}
+          - {label: "Meta Title", name: "meta_title", widget: "string", i18n: true}
+          - {label: "Description", name: "description", widget: "string", i18n: true}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false, i18n: duplicate}
+          - {label: "Body", name: "body", widget: "markdown", i18n: true, required: false}
+
+  # Homepage
+  - name: "homepage"
+    label: "Homepage"
+    i18n: true
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        i18n: true
+        file: "content/german/_index.md"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            i18n: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", i18n: true}
+              - {label: "Content", name: "content", widget: "text", i18n: true}
+              - {label: "Image", name: "image", widget: "image", i18n: true}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                i18n: true
+                fields:
+                  - {label: "Enable", name: "enable", widget: "boolean", i18n: duplicate}
+                  - {label: "Label", name: "label", widget: "string", i18n: true}
+                  - {label: "Link", name: "link", widget: "string", i18n: true}
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            i18n: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", i18n: true}
+              - {label: "Image", name: "image", widget: "image", i18n: true}
+              - {label: "Content", name: "content", widget: "text", i18n: true}
+              - label: "Bulletpoints"
+                name: "bulletpoints"
+                widget: "list"
+                i18n: true
+                field: {label: "Point", name: "point", widget: "string", i18n: true}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                i18n: true
+                fields:
+                  - {label: "Enable", name: "enable", widget: "boolean", i18n: duplicate}
+                  - {label: "Label", name: "label", widget: "string", i18n: true}
+                  - {label: "Link", name: "link", widget: "string", i18n: true}
+
+  # Blog Posts
+  - name: "blog-de"
+    label: "Blog (Deutsch)"
+    folder: "content/german/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "blog-fr"
+    label: "Blog (Français)"
+    folder: "content/french/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "blog-en"
+    label: "Blog (English)"
+    folder: "content/english/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Settings
+  - name: "settings"
+    label: "Settings"
+    files:
+      - label: "Social Links"
+        name: "social"
+        file: "data/social.json"
+        fields:
+          - label: "Main"
+            name: "main"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
